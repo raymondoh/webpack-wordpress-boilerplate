@@ -1,0 +1,39 @@
+// @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,400&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  // define what 1rem is
+  font-size: 100%; // 10px / 16px = .625 * 100 = 62.5%
+  scroll-behavior: smooth;
+}
+
+body {
+  margin-top: 100px;
+  //font-family: "Lato", sans-serif;
+  box-sizing: border-box;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  //color: #777;
+}
+a {
+  text-decoration: none;
+  color: green;
+}
+
+// img {
+//   max-width: 100%;
+//   height: auto;
+// }
+
+// ::selection {
+//   background-color: red;
+//   color: white;
+// }
